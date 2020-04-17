@@ -23,9 +23,6 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    Social Media 
-                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -33,7 +30,10 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
-
+                    <a class="navbar-brand d-flex" href="{{ url('/') }}">
+                    <div><img src="/svg/social_media.svg" style="max-height:25px; border-right: 2px solid red;" class="pr-2">
+                    <div class="pl-2">Social Media</div>
+                </a>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
