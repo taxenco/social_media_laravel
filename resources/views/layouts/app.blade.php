@@ -32,7 +32,7 @@
                     <ul class="navbar-nav mr-auto">
                     <a class="navbar-brand d-flex" href="{{ url('/') }}">
                     <div><img src="/svg/social_media.svg" style="max-height:25px; border-right: 2px solid red;" class="pr-2">
-                    <div class="pl-2">Social Media</div>
+                    <div>Social Media</div>
                 </a>
                     </ul>
 
@@ -51,7 +51,7 @@
                         @else
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                                    {{ Auth::user()->name }} <span class="caret"></span>
+                                    {{ Auth::user()->username }} <span class="caret"></span>
                                 </a>
 
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">

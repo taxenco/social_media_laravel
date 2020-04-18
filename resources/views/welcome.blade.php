@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Social Media</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -80,11 +80,12 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    Social Media
+                <div class="col-3 p-5">
+                    <img src='https://image.flaticon.com/icons/svg/978/978012.svg' style="max-height:300px">
+                    <div><h1>Social Media</h1></div>
                 </div>
-
                 <div class="links">
+                <br>
                     <a href="https://laravel.com/docs">Docs</a>
                     <a href="https://laracasts.com">Laracasts</a>
                     <a href="https://laravel-news.com">News</a>
