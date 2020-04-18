@@ -4,8 +4,9 @@ namespace App\Http\Controllers;
 
 class ProfilesController extends Controller
 {
- public function index()
+ public function index($user)
  {
-  return view('home');
+    $user=\App\User::find($user);
+    return view('home',['user' =>$user]);
  }
 }

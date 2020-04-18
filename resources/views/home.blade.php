@@ -7,7 +7,7 @@
         <img src='https://image.flaticon.com/icons/svg/978/978012.svg' style="max-height:120px">
         </div>
         <div class="col-9">
-            <div><h1>Social Media</h1></div>
+            <div><h1>{{$user->username}}</h1></div>
             <div class='d-flex'>
                 <div ><strong>153</strong> Post</div>
                 <div class='pl-2'><strong>23k</strong> Followers</div>
