@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('Football Social Media', 'Football Social Media') }}</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -32,7 +32,7 @@
                     <ul class="navbar-nav mr-auto">
                     <a class="navbar-brand d-flex" href="{{ url('/') }}">
                     <div><img src="/svg/social_media.svg" style="max-height:25px; border-right: 2px solid red;" class="pr-2">
-                    <div>Social Media</div>
+                    <div class="pl-2">Football Social Media</div>
                 </a>
                     </ul>
 

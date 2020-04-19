@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Social Media</title>
+        <title>Football Social Media</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -82,7 +82,7 @@
             <div class="content">
                 <div class="col-3 p-5">
                     <img src='https://image.flaticon.com/icons/svg/978/978012.svg' style="max-height:300px">
-                    <div><h1>Social Media</h1></div>
+                    <div><h1>Football Social Media</h1></div>
                 </div>
                 <div class="links">
                 <br>
