@@ -23,3 +23,5 @@ Route::post('/p', 'PostsController@store');
 
 
 Route::get('/profile/{user}', 'ProfilesController@index')->name('profile.show');
+
+
