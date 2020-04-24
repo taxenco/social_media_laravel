@@ -9,7 +9,7 @@
         <div class="col-9">
             <div class='d-flex justify-content-between  align-items-baseline'>
                 <h1>{{$user->username}}</h1>
-                <a href='/p/create'>Add New Post</a>
+                <a href='/p'>Add New Post</a>
             </div>
                 <a href='/profile/{{$user->id}}/edit'>Edit Profile</a>
             <div class='d-flex flex-wrap: wrap'>
@@ -20,6 +20,7 @@
             <div class="pt-4 font-weight-bold"><a href="https://github.com/taxenco/social_media_laravel">{{$user->profile->title}}</a></div>
             <!-- <div class="pt-4 font-weight-bold">@CarlosBeltran</div> -->
             <div>{{$user->profile->description}}</div>
+            <a href='{{$user->profile->url}}'>{{$user->profile->url}}</a>
         </div>
     </div>
     <div class='row pt-5'>

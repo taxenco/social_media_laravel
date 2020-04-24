@@ -12,7 +12,7 @@ class PostsController extends Controller
  } //Checks authorization of the user
  public function create()
  {
-  return view('posts/create');
+  return view('posts.create');
  }
 
  public function store()
