@@ -19,10 +19,10 @@
                 <div class='pl-2'><strong>23k</strong> Followers</div>
                 <div class='pl-2'><strong>212</strong> Following</div>
             </div>
-            <div class="pt-4 font-weight-bold"><a href="https://github.com/taxenco/social_media_laravel">{{$user->profile->title}}</a></div>
+            <div class="pt-4 font-weight-bold"><a href="https://github.com/taxenco/social_media_laravel">{{$user->title}}</a></div>
             <!-- <div class="pt-4 font-weight-bold">@CarlosBeltran</div> -->
-            <div>{{$user->profile->description}}</div>
-            <a href='{{$user->profile->url}}'>{{$user->profile->url}}</a>
+            <div>{{$user->description}}</div>
+            <a href='{{$user->url}}'>{{$user->url}}</a>
         </div>
     </div>
     <div class='row pt-5'>

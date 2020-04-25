@@ -1,8 +1,7 @@
 @extends('layouts.app')
-
 @section('content')
 <div class="container">
-<form action='/profile/{{$user[0]->id}}' enctype='multipart/form-data' method='post'>
+<form action='/profile/{{$user->id}}' enctype='multipart/form-data' method='post'>
         @csrf
         @method('PATCH')
         <div class='row'>
@@ -15,7 +14,7 @@
                     type="text"
                     class="form-control @error('title') is-invalid @enderror"
                     name='title'
-                    value="{{ old('title') ?? $user[0]->profile->title }}"
+                    value="{{ old('title') ?? $user->title }}"
                     autocomplete="title" autofocus>
 
                      @error('title')
@@ -29,7 +28,7 @@
                     type="text"
                     class="form-control @error('description') is-invalid @enderror"
                     name='description'
-                    value="{{ old('description')  ?? $user[0]->profile->description}}" 
+                    value="{{ old('description')  ?? $user->description}}" 
                     autocomplete="description" autofocus>
 
                      @error('description')
@@ -43,7 +42,7 @@
                     type="text"
                     class="form-control @error('url') is-invalid @enderror"
                     name='url'  
-                    value="{{ old('url') ?? $user[0]->profile->url }}"
+                    value="{{ old('url') ?? $user->url }}"
                     autocomplete="url" autofocus>
 
                      @error('url')

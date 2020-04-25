@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use Intervention\Image\Facades\Image;
+
 class ProfilesController extends Controller
 {
  public function index(\App\User $user)
@@ -11,14 +13,13 @@ class ProfilesController extends Controller
 
  public function edit(\App\User $user)
  {
-  $this->authorize('update', $user->profile); //allows only authorized users to access 
-
+  $user = $user->profile;
   return view('profiles.edit', compact('user'));
  }
 
  public function update(\App\User $user)
  {
-  $this->authorize('update', $user->profile);  //allows only authorized users to access 
+  $this->authorize('update', $user->profile); //allows only authorized users to access
 
   $data = request()->validate([
    'title' => 'required',
@@ -26,7 +27,18 @@ class ProfilesController extends Controller
    'url' => 'url',
    'image' => '',
   ]); // Validates form
-  auth()->user()->profile->update($data);
+
+  if (request('image')) {
+   $imagePath = request('image')->store('profile', 'public');
+
+   $image = Image::make(public_path("storage/{$imagePath}"))->fit(100, 1000);
+
+   $image->save();
+  }
+
+//   dd(array_merge($data, ['image' => $imagePath]));
+  auth()->user()->profile->update(array_merge($data, ['image' => $imagePath]));
+
   return redirect("/profile/{$user->id}");
  }
 
