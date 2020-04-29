@@ -9,7 +9,7 @@
         <div class='col-4'>
             <div class='d-flex align-items-center'>
                 <div class='pr-3' >
-                    <img src='/storage/{{$post->user->profile->image}}' class='rounded-circle'style='border-radius: 50%; height:50px !important; width:50px; object-fit: fill;'>
+                    <img src='{{$post->user->profile->profileImage()}}' class='rounded-circle'style='border-radius: 50%; height:50px !important; width:50px; object-fit: fill;'>
                 </div>
                 <div>
                     <div class='font-weight-bold'><a href='/profile/{{$post->user->id}}'><span class='text-dark'>{{$post->user->username}}</a>

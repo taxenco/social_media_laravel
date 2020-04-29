@@ -8,12 +8,20 @@
         </div>
         <div class="col-9">
             <div class='d-flex justify-content-between  align-items-baseline'>
-                <h1>{{$user->username}}</h1>
+                <div class='d-flex'>
+                <h1 class='pr-5'>{{$user->username}}</h1>
+                <follow-button user-id='{{$user->id}}'></follow-button>
+                </div>
+
+            @can('update', $user->profile)
+
                 <a href='/p'>Add New Post</a>
+                @endcan
+
             </div>
             @can('update', $user->profile)
                 <a href='/profile/{{$user->id}}/edit'>Edit Profile</a>
-            @endcan 
+            @endcan
             <div class='d-flex flex-wrap: wrap'>
                 <div ><strong>{{$user->posts->count()}}</strong> Post</div>
                 <div class='pl-2'><strong>23k</strong> Followers</div>
@@ -21,7 +29,7 @@
             </div>
             <div class="pt-4 font-weight-bold"><a href="https://github.com/taxenco/social_media_laravel">{{$user->profile->title}}</a></div>
             <!-- <div class="pt-4 font-weight-bold">@CarlosBeltran</div> -->
-            <div>{{$user->description}}</div>
+            <div>{{$user->profile-> description}}</div>
             <a href='{{$user->url}}'>{{$user->profile->url}}</a>
         </div>
     </div>

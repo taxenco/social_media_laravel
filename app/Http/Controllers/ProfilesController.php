@@ -35,10 +35,12 @@ class ProfilesController extends Controller
 
    $image->save();
 
+   $imageArray = ['image' => $imagePath]; // set previous image when edit profile
+
   }
 
 //   dd(array_merge($data, ['image' => $imagePath]));
-  auth()->user()->profile->update(array_merge($data, ['image' => $imagePath]));
+  auth()->user()->profile->update(array_merge($data, $imageArray ?? []));
 
   return redirect("/profile/{$user->id}");
  }
