@@ -10,7 +10,7 @@
             <div class='d-flex justify-content-between  align-items-baseline'>
                 <div class='d-flex'>
                 <h1 class='pr-5'>{{$user->username}}</h1>
-                <follow-button user-id='{{$user->id}}'></follow-button>
+                <follow-button user-id='{{$user->id}}' follows='{{@follows}}'></follow-button>
                 </div>
 
             @can('update', $user->profile)
