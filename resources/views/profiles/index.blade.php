@@ -24,8 +24,8 @@
             @endcan
             <div class='d-flex flex-wrap: wrap'>
                 <div ><strong>{{$user->posts->count()}}</strong> Post</div>
-                <div class='pl-2'><strong>23k</strong> Followers</div>
-                <div class='pl-2'><strong>212</strong> Following</div>
+                <div class='pl-2'><strong>{{$user->profile->followers->count()}}</strong> Followers</div>
+                <div class='pl-2'><strong>{{$user->following->count()}}</strong> Following</div>
             </div>
             <div class="pt-4 font-weight-bold"><a href="https://github.com/taxenco/social_media_laravel">{{$user->profile->title}}</a></div>
             <!-- <div class="pt-4 font-weight-bold">@CarlosBeltran</div> -->

@@ -1904,9 +1904,45 @@ module.exports = {
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/follow-button.vue?vue&type=script&lang=js& ***!
   \************************************************************************************************************************************************************************/
 /*! exports provided: default */
-/***/ (function(module, exports) {
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nSyntaxError: C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\resources\\js\\components\\follow-button.vue: Unexpected token (19:8)\n\n\u001b[0m \u001b[90m 17 | \u001b[39m        \u001b[36mreturn\u001b[39m{\u001b[0m\n\u001b[0m \u001b[90m 18 | \u001b[39m            status\u001b[33m:\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 19 | \u001b[39m        }\u001b[0m\n\u001b[0m \u001b[90m    | \u001b[39m        \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 20 | \u001b[39m    }\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 21 | \u001b[39m    methods\u001b[33m:\u001b[39m{\u001b[0m\n\u001b[0m \u001b[90m 22 | \u001b[39m        followUser(){\u001b[0m\n    at Parser._raise (C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\node_modules\\@babel\\parser\\lib\\index.js:742:17)\n    at Parser.raiseWithData (C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\node_modules\\@babel\\parser\\lib\\index.js:735:17)\n    at Parser.raise (C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\node_modules\\@babel\\parser\\lib\\index.js:729:17)\n    at Parser.unexpected (C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\node_modules\\@babel\\parser\\lib\\index.js:8757:16)\n    at Parser.parseExprAtom (C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\node_modules\\@babel\\parser\\lib\\index.js:10052:20)\n    at Parser.parseExprSubscripts (C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\node_modules\\@babel\\parser\\lib\\index.js:9602:23)\n    at Parser.parseMaybeUnary (C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\node_modules\\@babel\\parser\\lib\\index.js:9582:21)\n    at Parser.parseExprOps (C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\node_modules\\@babel\\parser\\lib\\index.js:9452:23)\n    at Parser.parseMaybeConditional (C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\node_modules\\@babel\\parser\\lib\\index.js:9425:23)\n    at Parser.parseMaybeAssign (C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\node_modules\\@babel\\parser\\lib\\index.js:9380:21)\n    at Parser.parseObjectProperty (C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\node_modules\\@babel\\parser\\lib\\index.js:10512:101)\n    at Parser.parseObjPropValue (C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\node_modules\\@babel\\parser\\lib\\index.js:10537:101)\n    at Parser.parseObjectMember (C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\node_modules\\@babel\\parser\\lib\\index.js:10461:10)\n    at Parser.parseObj (C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\node_modules\\@babel\\parser\\lib\\index.js:10374:25)\n    at Parser.parseExprAtom (C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\node_modules\\@babel\\parser\\lib\\index.js:9995:28)\n    at Parser.parseExprSubscripts (C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\node_modules\\@babel\\parser\\lib\\index.js:9602:23)\n    at Parser.parseMaybeUnary (C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\node_modules\\@babel\\parser\\lib\\index.js:9582:21)\n    at Parser.parseExprOps (C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\node_modules\\@babel\\parser\\lib\\index.js:9452:23)\n    at Parser.parseMaybeConditional (C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\node_modules\\@babel\\parser\\lib\\index.js:9425:23)\n    at Parser.parseMaybeAssign (C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\node_modules\\@babel\\parser\\lib\\index.js:9380:21)\n    at Parser.parseExpression (C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\node_modules\\@babel\\parser\\lib\\index.js:9332:23)\n    at Parser.parseReturnStatement (C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\node_modules\\@babel\\parser\\lib\\index.js:11448:28)\n    at Parser.parseStatementContent (C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\node_modules\\@babel\\parser\\lib\\index.js:11129:21)\n    at Parser.parseStatement (C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\node_modules\\@babel\\parser\\lib\\index.js:11081:17)\n    at Parser.parseBlockOrModuleBlockBody (C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\node_modules\\@babel\\parser\\lib\\index.js:11656:25)\n    at Parser.parseBlockBody (C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\node_modules\\@babel\\parser\\lib\\index.js:11642:10)\n    at Parser.parseBlock (C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\node_modules\\@babel\\parser\\lib\\index.js:11626:10)\n    at Parser.parseFunctionBody (C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\node_modules\\@babel\\parser\\lib\\index.js:10634:24)\n    at Parser.parseFunctionBodyAndFinish (C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\node_modules\\@babel\\parser\\lib\\index.js:10617:10)\n    at C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\node_modules\\@babel\\parser\\lib\\index.js:11796:12\n    at Parser.withTopicForbiddingContext (C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\node_modules\\@babel\\parser\\lib\\index.js:10956:14)\n    at Parser.parseFunction (C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\node_modules\\@babel\\parser\\lib\\index.js:11795:10)\n    at Parser.parseFunctionExpression (C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\node_modules\\@babel\\parser\\lib\\index.js:10093:17)\n    at Parser.parseExprAtom (C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\node_modules\\@babel\\parser\\lib\\index.js:10001:21)\n    at Parser.parseExprSubscripts (C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\node_modules\\@babel\\parser\\lib\\index.js:9602:23)\n    at Parser.parseMaybeUnary (C:\\Users\\Carlos\\Desktop\\social_media\\socialmedia\\node_modules\\@babel\\parser\\lib\\index.js:9582:21)");
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  props: ['userId', 'follows'],
+  mounted: function mounted() {
+    console.log('Component mounted.');
+  },
+  data: function data() {
+    return {
+      status: this.follows
+    };
+  },
+  methods: {
+    followUser: function followUser() {
+      var _this = this;
+
+      axios.post('/follow/' + this.userId).then(function (response) {
+        _this.status = !_this.status;
+      })["catch"](function (errors) {
+        if (errors.response.status === 401) {
+          window.location = '/login';
+        }
+      });
+    }
+  },
+  computed: {
+    buttonText: function buttonText() {
+      return this.status ? 'Unfollow' : 'Follow';
+    }
+  }
+});
 
 /***/ }),
 
@@ -37555,11 +37591,11 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
-    _c(
-      "button",
-      { staticClass: "btn btn-primary", on: { click: _vm.followUser } },
-      [_vm._v("Follow")]
-    )
+    _c("button", {
+      staticClass: "btn btn-primary",
+      domProps: { textContent: _vm._s(_vm.buttonText) },
+      on: { click: _vm.followUser }
+    })
   ])
 }
 var staticRenderFns = []
